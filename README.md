@@ -1,5 +1,3 @@
-# Agentic Coding
-
 <div align="center">
 
 # Agentic Coding
@@ -96,10 +94,10 @@ AGENTIC-CODING/
 
 ## Current documentation bundles
 
-| Bundle | Primary stack | Purpose | Audience |
-|---|---|---|---|
-| `native-expo-docs` | Expo, React Native, Supabase | Production standards for mobile app generation | AI agents building mobile apps |
-| `react-vite-docs` | React, Vite, Tailwind, Supabase | Standards for fast, maintainable web app generation | AI agents building modern web apps |
+| Bundle                         | Primary stack                   | Purpose                                                      | Audience                                |
+| ------------------------------ | ------------------------------- | ------------------------------------------------------------ | --------------------------------------- |
+| `native-expo-docs`             | Expo, React Native, Supabase    | Production standards for mobile app generation               | AI agents building mobile apps          |
+| `react-vite-docs`              | React, Vite, Tailwind, Supabase | Standards for fast, maintainable web app generation          | AI agents building modern web apps      |
 | `solidity-smart-contract-docs` | Solidity, OpenZeppelin, Hardhat | Secure smart contract implementation and deployment guidance | AI agents generating Ethereum contracts |
 
 ---
@@ -108,13 +106,13 @@ AGENTIC-CODING/
 
 Most bundles follow a predictable numbered structure so agents can navigate them reliably.
 
-| File pattern | Purpose |
-|---|---|
-| `00-*` | Non-negotiable principles, constraints, definition of done |
-| `01-*` | Architecture, setup, project structure, boundaries |
-| `02-*` | Implementation patterns, coding rules, reusable templates |
-| `03-*` | Testing, validation, and quality standards |
-| `04-*` | Deployment, environment, scripts, integration guidance |
+| File pattern     | Purpose                                                                     |
+| ---------------- | --------------------------------------------------------------------------- |
+| `00-*`           | Non-negotiable principles, constraints, definition of done                  |
+| `01-*`           | Architecture, setup, project structure, boundaries                          |
+| `02-*`           | Implementation patterns, coding rules, reusable templates                   |
+| `03-*`           | Testing, validation, and quality standards                                  |
+| `04-*`           | Deployment, environment, scripts, integration guidance                      |
 | `05-*` and above | Security, developer manuals, performance, or stack-specific advanced topics |
 
 This numbering system gives AI agents a consistent reading order:
@@ -176,14 +174,14 @@ Add new bundles for additional stacks, frameworks, or domains while keeping the 
 
 ## Recommended workflow for AI agents
 
-| Step | Agent action | Expected outcome |
-|---|---|---|
-| 1 | Read `00-*` first | Understand hard constraints and non-negotiables |
-| 2 | Read architecture docs | Respect boundaries and project structure |
-| 3 | Read implementation patterns | Generate idiomatic, consistent code |
-| 4 | Read testing and deployment docs | Produce verifiable, deployable output |
-| 5 | Generate code and configs | Include supporting files, not just source code |
-| 6 | Generate developer handoff docs | Explain setup, usage, deployment, and next steps |
+| Step | Agent action                     | Expected outcome                                 |
+| ---- | -------------------------------- | ------------------------------------------------ |
+| 1    | Read `00-*` first                | Understand hard constraints and non-negotiables  |
+| 2    | Read architecture docs           | Respect boundaries and project structure         |
+| 3    | Read implementation patterns     | Generate idiomatic, consistent code              |
+| 4    | Read testing and deployment docs | Produce verifiable, deployable output            |
+| 5    | Generate code and configs        | Include supporting files, not just source code   |
+| 6    | Generate developer handoff docs  | Explain setup, usage, deployment, and next steps |
 
 ---
 
@@ -209,10 +207,10 @@ It does **not** mean:
 
 ## Example use cases
 
-| Use case | Relevant bundle |
-|---|---|
-| Generate an Expo mobile app with auth, state management, and performance rules | `native-expo-docs` |
-| Generate a React + Vite SaaS frontend with maintainable structure | `react-vite-docs` |
+| Use case                                                                                            | Relevant bundle                |
+| --------------------------------------------------------------------------------------------------- | ------------------------------ |
+| Generate an Expo mobile app with auth, state management, and performance rules                      | `native-expo-docs`             |
+| Generate a React + Vite SaaS frontend with maintainable structure                                   | `react-vite-docs`              |
 | Generate Ethereum smart contracts with secure Hardhat workflows and detailed developer instructions | `solidity-smart-contract-docs` |
 
 ---
@@ -221,15 +219,15 @@ It does **not** mean:
 
 When adding or editing a documentation bundle in this repo, keep the following standards:
 
-| Rule | Requirement |
-|---|---|
-| Tone | Write like a senior engineer defining implementation rules |
-| Specificity | Prefer concrete patterns over vague advice |
-| Security | Include realistic security guidance where relevant |
-| Testing | Require detailed testing expectations |
-| Deployability | Include configuration and release guidance |
-| Handoff | Include docs that help non-expert developers continue the work |
-| Consistency | Keep numbering, terminology, and structure coherent |
+| Rule          | Requirement                                                    |
+| ------------- | -------------------------------------------------------------- |
+| Tone          | Write like a senior engineer defining implementation rules     |
+| Specificity   | Prefer concrete patterns over vague advice                     |
+| Security      | Include realistic security guidance where relevant             |
+| Testing       | Require detailed testing expectations                          |
+| Deployability | Include configuration and release guidance                     |
+| Handoff       | Include docs that help non-expert developers continue the work |
+| Consistency   | Keep numbering, terminology, and structure coherent            |
 
 ### New bundle checklist
 
